@@ -87,7 +87,7 @@ while True:
     print("Press 2 View Expenses")
     print("Press 3 Track Budget")
     print("Press 4 Save expenses")
-    print("6. Exit")
+    print("Press 5 to Exit")
     choice = input("Enter your choice: ")
     if choice == '1':
         print("Add Expense")

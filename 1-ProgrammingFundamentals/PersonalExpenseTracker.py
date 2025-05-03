@@ -102,7 +102,11 @@ while True:
     elif choice == '3':
         my_tracker.set_monthly_budget()
         my_tracker.check_budget_status()
-    elif choice == '6':
+    elif choice == '4':
+        my_tracker.save_expenses()
+        print("Expenses saved successfully.")           
+        break
+    elif choice == '5':
         break
     else:
         print("Invalid choice. Please try again.")   
